@@ -37,9 +37,9 @@ $input_password = @$_GET['pass'];
 
 // proses login
 if (!empty($input_username) and !empty($input_password)) {
-  echo "<h1><pre>Function userLoginV1() : ";
+  echo "<h1><pre>Login::v1() : ";
   echo Login::v1($input_username, $input_password);
-  echo "<br>Function userLoginV2() : ";
+  echo "<br>Login::v2() : ";
   echo Login::v2($input_username, $input_password);
 }
 // end proses login
