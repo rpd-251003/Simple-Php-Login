@@ -42,5 +42,7 @@ if (!empty($input_username) and !empty($input_password)) {
   echo userLoginV1($input_username, $input_password);
   echo "<br>Function userLoginV2() : ";
   echo userLoginV2($input_username, $input_password);
+} else {
+  echo "Masih ada Parameter Kosong";
 }
 // end proses login
